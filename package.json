@@ -1,25 +1,26 @@
 {
-    "name": "backend",
+    "name": "backend-server",
     "version": "1.0.0",
-    "description": "Servidor BackEnd Angular Avanzado",
+    "description": "Servidor backend del curso de Angular Avanzado",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Bernardo Peraza",
+    "author": "Fernando Herrera",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
-        "body-parser": "^1.18.3",
-        "express": "^4.16.4",
-        "express-fileupload": "^1.0.0",
-        "jsonwebtoken": "^8.3.0",
-        "mongoose": "^5.3.10",
-        "mongoose-unique-validator": "^2.0.2",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "express-fileupload": "^0.3.0",
+        "google-auth-library": "^0.12.0",
+        "jsonwebtoken": "^8.1.0",
+        "mongoose": "^4.13.5",
+        "mongoose-unique-validator": "^1.0.6",
         "serve-index": "^1.9.1"
     },
     "devDependencies": {
-        "nodemon": "^1.18.6"
+        "nodemon": "^1.12.1"
     }
 }
